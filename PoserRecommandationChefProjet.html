@@ -32,7 +32,7 @@
         <a href="#" class="sidebar-toggler text-gray-500 mr-4 mr-lg-5 lead"><i class="fas fa-align-left">
         </i>
         </a>
-        <a href="index.html" class="navbar-brand font-weight-bold text-uppercase text-base">Page principale</a>
+        <a href="index.html" class="navbar-brand font-weight-bold text-uppercase text-base">Chef de Projet</a>
         <ul class="ml-auto d-flex align-items-center list-unstyled mb-0">
             <li class="nav-item">
                 <form id="searchForm" class="ml-auto d-none d-lg-block">
@@ -79,8 +79,7 @@
     <div id="sidebar" class="sidebar py-3">
         <div class="text-gray-400 text-uppercase px-3 px-lg-4 py-4 font-weight-bold small headings-font-family">MAIN</div>
         <ul class="sidebar-menu list-unstyled">
-            <li class="sidebar-list-item"><a href="home.html" class="sidebar-link text-muted "><i class="o-home-1 mr-3 text-gray"></i><span>Home</span></a></li>
-            <li class="sidebar-list-item"><a href="Questionnaire.html" class="sidebar-link text-muted active"><i class="o-survey-1 mr-3 text-gray"></i><span>Recommandations</span></a></li>
+            <li class="sidebar-list-item"><a href="ChefProjet.html" class="sidebar-link text-muted active"><i class="o-home-1 mr-3 text-gray"></i><span>Home</span></a></li>
             <li class="sidebar-list-item"><a href="index.html" class="sidebar-link text-muted"><i class="o-exit-1 mr-3 text-gray"></i><span>Se Déconnecter</span></a></li>
         </ul>
     </div>
@@ -92,41 +91,29 @@
                     <div class="col-lg-12 mb-5">
                         <div class="card">
                             <div class="card-header">
-                                <h3 class="h6 text-uppercase mb-0">Recommandation 1</h3>
+                                <h3 class="h6 text-uppercase mb-0">Reponse questionnaire : 1</h3>
                             </div>
                             <div class="card-body">
-                                <form class="form-horizontal" action="#">
-                                    <div class="form-group row">
-                                        <label class="col-md-12 form-control-label">If you want to highlight one word at a time, press Ctrl key while holding down Shift, and then press the left or right arrow key.</label>
-                                    </div>
+                                <form action="ChefProjet.html">
+                                                <div class="form-group row">
+                                                    <label class="col-md-3 form-control-label">Titre:</label>
+                                                    <div class="col-md-9">
+                                                        <input id="inputHorizontalSuccess" type="text" placeholder="Titre de la recommandation" class="form-control form-control-success" required><small class="form-text text-muted ml-3">Example help text that remains unchanged.</small>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label class="col-sm-3 form-control-label">Recommandation</label>
+                                                    <div class="col-md-9">
+                                                        <textarea id="inputHorizontalWarning" type="text" placeholder="Recommandation" class="form-control form-control-warning" rows="4" required></textarea>
+                                                        <small class="form-text text-muted ml-3">Example help text that remains unchanged.</small>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <div class="col-md-9 ml-auto">
+                                                        <button type="submit" value="Signin" class="btn btn-primary">Confirmer </button>
+                                                    </div>
+                                                </div>
                                 </form>
-
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="h6 text-uppercase mb-0">Recommandation 2</h3>
-                            </div>
-                            <div class="card-body">
-                                <form class="form-horizontal" action="#">
-                                    <div class="form-group row">
-                                        <label class="col-md-12 form-control-label">If you want to highlight one word at a time, press Ctrl key while holding down Shift, and then press the left or right arrow key.</label>
-                                    </div>
-                                </form>
-
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <h3 class="h6 text-uppercase mb-0">Recommandation 3</h3>
-                            </div>
-                            <div class="card-body">
-                                <form class="form-horizontal" action="#">
-                                    <div class="form-group row">
-                                        <label class="col-md-12 form-control-label">If you want to highlight one word at a time, press Ctrl key while holding down Shift, and then press the left or right arrow key.</label>
-                                    </div>
-                                </form>
-
                             </div>
                         </div>
                     </div>
